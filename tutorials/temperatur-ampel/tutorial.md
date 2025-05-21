@@ -1,6 +1,9 @@
-# 🌡️ Temperatur-Ampel Tutorial
+# 🌡️ Temperatur-Ampel
 
 @tutorial
-@step "Schritt 1" -> step1.md
-@step "Schritt 2" -> step2.md
-@step "Schritt 3" -> step3.md
+@step "Was ist das Ziel?" -> step1.md
+@step "Temperatur anzeigen" -> step2.md
+@step "Gesicht anzeigen" -> step3.md
+@step "LEDs steuern" -> step4.md
+@step "Abschluss" -> step5.md
+
