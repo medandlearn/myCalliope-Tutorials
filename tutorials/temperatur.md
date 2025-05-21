@@ -6,8 +6,8 @@ In diesem Tutorial programmierst du den Calliope mini v3 so, dass er:
 - bei 25 °C oder mehr ein trauriges Gesicht und rote LEDs anzeigt.
 
 ## Schritt 2 – Temperatur anzeigen @showhint
-Öffne die Kategorie ||input:|| und hole dir den Block ||input:temperature||.  
-Ziehe ihn in den Block ||basic:show number||, um die aktuelle Temperatur anzuzeigen.
+Öffne die Kategorie ``||input:||`` und hole dir den Block ``||input:temperature||``.  
+Ziehe ihn in den Block ``||basic:show number||``, um die aktuelle Temperatur anzuzeigen.
 
 ```blocks
 basic.forever(function () {
@@ -18,7 +18,7 @@ basic.forever(function () {
 
 ## Schritt 3 – Gesicht anzeigen @showhint
 Zeige je nach Temperatur ein Smiley oder trauriges Gesicht.  
-Nutze dazu den Block ||logic:if then else|| aus ||logic:|| und ||basic:show icon||.
+Nutze dazu den Block ``||logic:if then else||`` aus ``||logic:||`` und ``||basic:show icon||``.
 
 ```blocks
 basic.forever(function () {
@@ -33,7 +33,7 @@ basic.forever(function () {
 
 ## Schritt 4 – RGB-LEDs steuern @showhint
 Jetzt steuerst du zusätzlich die Farbe der RGB-LEDs.  
-Nutze ||neopixel:create strip|| und ||neopixel:show color||.
+Nutze ``||neopixel:create strip||`` und ``||neopixel:show color||``.
 
 ```blocks
 let strip = neopixel.create(DigitalPin.P1, 3, NeoPixelMode.RGB)
