@@ -1,0 +1,8 @@
+{
+  "name": "calliope-tutorials",
+  "description": "Eine Sammlung von Tutorials für den Calliope mini v3",
+  "dependencies": {},
+  "files": [],
+  "testFiles": [],
+  "public": true
+}
